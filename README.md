@@ -67,73 +67,12 @@ A modern, full-featured personal book collection management web application buil
 - npm or yarn
 - Firebase account
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/mn-anirban/MNBooks.git
-   cd MNBooks
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Set up Firebase**
-   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-   - Enable Firestore and Authentication
-   - Copy your Firebase config to `.env.local`:
-   ```env
-   VITE_FIREBASE_API_KEY=your_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-   VITE_FIREBASE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_project.firebasestorage.app
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-   VITE_FIREBASE_APP_ID=your_app_id
-   ```
-
-4. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   ```
-   http://localhost:5173
-   ```
-
-## 📜 Available Scripts
-
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server with hot reload |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build locally |
-| `npm run lint` | Run ESLint for code quality |
-
 ## 🌐 Deployment
 
 ### GitHub Pages (Current)
 The app is deployed on GitHub Pages at:
 ```
 https://mn-anirban.github.io/MNBooks/
-```
-
-### Manual Deployment
-1. **Build the project**
-   ```bash
-   npm run build
-   ```
-
-2. **Upload `dist/` contents** to your hosting provider
-
-### Firebase Hosting (Alternative)
-```bash
-npm install -g firebase-tools
-firebase login
-firebase init hosting
-firebase deploy
 ```
 
 ## 🔒 Security
