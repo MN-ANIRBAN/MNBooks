@@ -1,4 +1,4 @@
-# 📚 My Book Library
+# 📚 MN Book Library
 
 A modern, full-featured personal book collection management web application built with React and Firebase. Perfect for book enthusiasts who want to catalog their personal library, track reading habits, and manage their book collection digitally.
 
