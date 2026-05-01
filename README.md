@@ -74,7 +74,9 @@ The app is deployed on GitHub Pages at:
 ```
 https://mn-anirban.github.io/MNBooks/
 ```
-
+```
+https://mn-books.vercel.app/
+```
 ## 🔒 Security
 
 - **API Key Protection**: Firebase API keys are restricted to authorized domains
