@@ -75,7 +75,7 @@ The app is deployed on GitHub Pages at:
 https://mn-anirban.github.io/MNBooks/
 ```
 ```
-https://mn-books.vercel.app/
+https://mnbooks.vercel.app/
 ```
 ## 🔒 Security
 
